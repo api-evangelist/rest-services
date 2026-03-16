@@ -1,16 +1,22 @@
+aid: rest-services
 name: REST Services
 description: Representational State Transfer (REST) is an architectural style for
   designing networked applications using stateless communication and standard HTTP
   methods (GET, POST, PUT, DELETE) to interact with resources identified by URLs.
   It supports the full software development lifecycle from design through deployment
   and maintenance.
-url: https://restfulapi.net/
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/rest-services/refs/heads/main/apis.yml
 tags:
 - API
 - Web Services
 - HTTP
 - Architecture
-created: '2025'
-modified: '2025'
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
 common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
