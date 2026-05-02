@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "svc": "https://restfulapi.net/services/vocab#",
+    "SoftwareApplication": "SoftwareApplication",
+    "Service": "Service",
+    "name": "name",
+    "description": "description",
+    "url": "url",
+    "RestService": {
+      "@id": "svc:RestService",
+      "@type": "rdfs:Class"
+    },
+    "ServiceContract": {
+      "@id": "svc:ServiceContract",
+      "@type": "rdfs:Class"
+    },
+    "CollectionResource": {
+      "@id": "svc:CollectionResource",
+      "@type": "rdfs:Class"
+    },
+    "SingletonResource": {
+      "@id": "svc:SingletonResource",
+      "@type": "rdfs:Class"
+    },
+    "ApiGateway": {
+      "@id": "svc:ApiGateway",
+      "@type": "rdfs:Class"
+    },
+    "Microservice": {
+      "@id": "svc:Microservice",
+      "@type": "rdfs:Class"
+    },
+    "ServiceMesh": {
+      "@id": "svc:ServiceMesh",
+      "@type": "rdfs:Class"
+    },
+    "endpoint": {
+      "@id": "svc:endpoint"
+    },
+    "baseUri": {
+      "@id": "svc:baseUri"
+    },
+    "authentication": {
+      "@id": "svc:authentication"
+    },
+    "rateLimit": {
+      "@id": "svc:rateLimit"
+    },
+    "version": {
+      "@id": "svc:version"
+    },
+    "healthEndpoint": {
+      "@id": "svc:healthEndpoint"
+    }
+  }
+}

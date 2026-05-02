@@ -1,0 +1,140 @@
+vocabulary:
+  name: REST Services Vocabulary
+  description: >-
+    Domain vocabulary for RESTful service design, implementation, deployment,
+    and management, covering service patterns, HTTP semantics, API lifecycle
+    practices, and operational concerns for REST-based web services.
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  terms:
+    - term: REST Service
+      definition: >-
+        A web service that conforms to the REST architectural constraints,
+        exposing resources via URI-addressable endpoints and communicating
+        through standard HTTP methods and status codes.
+      tags:
+        - Architecture
+        - Foundational
+    - term: Service Contract
+      definition: >-
+        A formal definition of a REST service's capabilities, including its
+        endpoints, supported methods, request and response formats, and
+        authentication requirements. Commonly expressed as an OpenAPI document.
+      tags:
+        - API Design
+        - Documentation
+    - term: Resource Modeling
+      definition: >-
+        The practice of identifying domain entities and mapping them to REST
+        resources with appropriate URI structures, relationships, and HTTP
+        semantics.
+      tags:
+        - API Design
+        - Pattern
+    - term: CRUD
+      definition: >-
+        Create, Read, Update, Delete. The four basic operations on data resources
+        mapped to HTTP methods: POST (Create), GET (Read), PUT/PATCH (Update),
+        DELETE (Delete).
+      tags:
+        - Pattern
+        - Operations
+    - term: Collection Resource
+      definition: >-
+        A REST resource representing a list of entities (e.g., /users). Supports
+        GET to list members, POST to create a new member, and typically pagination.
+      tags:
+        - API Design
+        - Pattern
+    - term: Singleton Resource
+      definition: >-
+        A REST resource representing a single entity identified by a unique
+        identifier (e.g., /users/123). Supports GET, PUT, PATCH, and DELETE.
+      tags:
+        - API Design
+        - Pattern
+    - term: Sub-Resource
+      definition: >-
+        A REST resource that is nested under a parent resource to represent
+        relationships (e.g., /users/123/orders). Indicates a containment or
+        ownership relationship.
+      tags:
+        - API Design
+        - Pattern
+    - term: Hypermedia
+      definition: >-
+        Links embedded in REST API responses that guide clients to related
+        resources and available transitions, enabling dynamic navigation of
+        the API without hardcoded URLs.
+      tags:
+        - Architecture
+        - HATEOAS
+    - term: API Gateway
+      definition: >-
+        A server that acts as a single entry point for REST API requests,
+        providing routing, authentication, rate limiting, logging, and protocol
+        translation for backend services.
+      tags:
+        - Infrastructure
+        - Operations
+    - term: Service Discovery
+      definition: >-
+        The mechanism by which clients locate the network addresses of available
+        REST services, particularly in microservices architectures where service
+        locations are dynamic.
+      tags:
+        - Microservices
+        - Operations
+    - term: Microservice
+      definition: >-
+        An architectural style where an application is built as a collection of
+        small, independently deployable services, each exposing a REST API and
+        responsible for a bounded domain capability.
+      tags:
+        - Architecture
+        - Microservices
+    - term: Load Balancing
+      definition: >-
+        Distributing incoming REST API requests across multiple service instances
+        to improve throughput, reduce latency, and ensure availability.
+      tags:
+        - Infrastructure
+        - Operations
+    - term: Circuit Breaker
+      definition: >-
+        A resilience pattern that prevents a REST client from repeatedly calling
+        a failing service by detecting failures and opening a circuit that returns
+        errors immediately until the service recovers.
+      tags:
+        - Resilience
+        - Pattern
+    - term: Throttling
+      definition: >-
+        Server-side enforcement of request rate limits to protect REST service
+        capacity, preventing individual clients from consuming excessive resources.
+      tags:
+        - Operations
+        - Security
+    - term: Service Mesh
+      definition: >-
+        Infrastructure layer that manages REST service-to-service communication,
+        providing service discovery, load balancing, encryption, observability,
+        and resilience without changes to application code.
+      tags:
+        - Infrastructure
+        - Microservices
+    - term: API Lifecycle
+      definition: >-
+        The stages of a REST API from initial design through publication,
+        versioning, deprecation, and retirement, including governance processes
+        for managing change.
+      tags:
+        - Governance
+        - Operations
+    - term: Caching
+      definition: >-
+        Storing REST API responses to serve future requests without regenerating
+        them. Controlled via Cache-Control, ETag, and Last-Modified HTTP headers.
+      tags:
+        - Performance
+        - HTTP
