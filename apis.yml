@@ -23,6 +23,8 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/rest-services-domain-security.yml
   - type: Website
     url: https://restfulapi.net
   - type: Reference
