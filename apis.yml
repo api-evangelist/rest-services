@@ -1,4 +1,5 @@
 aid: rest-services
+x-type: concept
 name: REST Services
 description: >-
   Representational State Transfer (REST) is an architectural style for designing
@@ -62,3 +63,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-parent: rest
+x-relationship: product
