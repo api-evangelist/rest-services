@@ -46,6 +46,20 @@ modified: '2026-05-02'
 specificationVersion: '0.23'
 apis: []
 common:
+  - type: Specification
+    url: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+  - type: RFC
+    url: https://www.rfc-editor.org/rfc/rfc9110
+  - type: OpenAPI
+    url: https://spec.openapis.org/oas/latest.html
+  - type: Tutorials
+    url: https://restfulapi.net/rest-api-tutorial/
+  - type: GitHub
+    url: https://github.com/OAI/OpenAPI-Specification
+  - type: Tooling
+    url: https://openapi.tools
+  - type: JSONSchema
+    url: https://raw.githubusercontent.com/api-evangelist/rest/refs/heads/main/json-schema/rest-api-schema.json
   - type: DomainSecurity
     url: security/rest-services-domain-security.yml
   - type: Website
@@ -63,5 +77,3 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
-x-parent: rest
-x-relationship: product
