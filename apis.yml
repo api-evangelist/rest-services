@@ -1,6 +1,7 @@
 aid: rest-services
 x-type: concept
 name: REST Services
+kind: topic
 description: >-
   Representational State Transfer (REST) is an architectural style for designing
   networked applications using stateless communication and standard HTTP methods
@@ -13,14 +14,17 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - oai/openapi-specification
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
